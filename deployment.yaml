@@ -32,7 +32,7 @@ spec:
     app: todo
   type: NodePort
   ports:
-    - protocol: TCP
-      port: 3000
+    - protocol: LoadBalancer
+      port: 80
       targetPort: 3000
 #      nodePort: 30132
