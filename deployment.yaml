@@ -32,7 +32,8 @@ spec:
     app: todo
   type: NodePort
   ports:
-    - protocol: NodePort
+    - protocol: TCP
       port: 3000
       targetPort: 3000
+      type: NodePort
 #      nodePort: 30132
