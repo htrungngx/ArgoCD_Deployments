@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: dckb9xz/app
+          image: dckb9xz/todo:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 3000
 ---
 apiVersion: v1
 kind: Service
