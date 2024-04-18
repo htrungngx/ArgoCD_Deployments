@@ -16,7 +16,7 @@ spec:
         app: todo
     spec:
       containers:
-        - name: gitops-demo
+        - name: todo
           image: dckb9xz/todo:latest
           imagePullPolicy: Always
           ports:
